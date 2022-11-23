@@ -23,7 +23,9 @@ Functions used
 
 •	trin_tst_sp(splitData,test_size):
 This function splits the data into test and train data.
+
 	splitData = Dataset
+
 	test_size = It is the size of the test data which can be given as number or in percentage
 
 •	check_purity(data):
@@ -31,14 +33,19 @@ This function checks whether the given data of same label of class or not.
 
 	data = Any data
 
+
 •	Clsfy_da(data):
 This function classify the label which has maximum number in the data.
 
 	data = Any data  
+
+
 •	splitfun(data) :
 This function returns a dictionary with column number as key and values between max and min of column values as item.
 
 	data =  Data set
+
+
 
 •	split_data(data,split_col,split_val):
 It is splitting data into two sets. One set contains data of split_col with less than split_val. The other set contains the remaining data of split_col.  
@@ -49,30 +56,45 @@ It is splitting data into two sets. One set contains data of split_col with less
 
 	split_col = Dominant column which is going to split into two parts.
 
+
 •	ent(col):
 It calculates the entropy of column which is further used in information gain.
+
 	col = column
+
 
 •	infmation_gain(data,data_a,data_b):
 This function calculates information gain of each column of data set.
+
 	data = Dataset
+
 	data_a, data_b = Splitted data of a particular column 
+
 
 •	best_col_value(data,col_vis_split):
 This function returns best column or best value of the column for which information gain is high.
+
 	col_vis_split = It contains the dictionary of split values of columns.   
 
 •	dec_tree_algor(data,dic2,countt=0,depth=None):
 It is the function which makes a decision tree in the form of dictionary.
+
 	data = Dataset
+
 	dic2 = It contains the column names or attributes of the data. 
+
 	depth = It is the number of levels of tree.
+
 	countt = It counts the number of times this recursive function is called.  
+
 
 •	classify_example(example, tree):
 This functions classifies a given test data as one of the class.
+
 	example = It is one test data.
+
 	tree = It is the decision tree framed with the training data.
+
 
 
 
