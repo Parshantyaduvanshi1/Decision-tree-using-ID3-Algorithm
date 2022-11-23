@@ -10,8 +10,11 @@ In order to apply the decision tree over test data, classify_example function is
 Libraries used
 
 •	Numpy
+
 •	Matplotlib
+
 •	Sklearn (to shuffle the data for training)
+
 •	Pprint (in order to print the dictionary in the form of tree)
 
 
