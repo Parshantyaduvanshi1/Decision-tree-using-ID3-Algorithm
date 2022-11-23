@@ -24,7 +24,6 @@ Functions used
 •	trin_tst_sp(splitData,test_size):
 This function splits the data into test and train data.
 	splitData = Dataset
-
 	test_size = It is the size of the test data which can be given as number or in percentage
 
 •	check_purity(data):
