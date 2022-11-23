@@ -24,23 +24,30 @@ Functions used
 •	trin_tst_sp(splitData,test_size):
 This function splits the data into test and train data.
 	splitData = Dataset
+
 	test_size = It is the size of the test data which can be given as number or in percentage
 
 •	check_purity(data):
 This function checks whether the given data of same label of class or not.
+
 	data = Any data
 
 •	Clsfy_da(data):
 This function classify the label which has maximum number in the data.
+
 	data = Any data  
 •	splitfun(data) :
 This function returns a dictionary with column number as key and values between max and min of column values as item.
+
 	data =  Data set
 
 •	split_data(data,split_col,split_val):
-It is splitting data into two sets. One set contains data of split_col with less than split_val. The other set contains the remaining data of split_col.   
+It is splitting data into two sets. One set contains data of split_col with less than split_val. The other set contains the remaining data of split_col.  
+
 	data = Data set
+
 	split_val = It is the best value for  which information gain of split_col  is max.
+
 	split_col = Dominant column which is going to split into two parts.
 
 •	ent(col):
