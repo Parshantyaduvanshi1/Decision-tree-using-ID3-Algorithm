@@ -1,5 +1,6 @@
 # Decision-tree-using-ID3-Algorithm
 Introduction
+
 In this project, a decision tree is designed using ID3 algorithm. A decision tree has nodes and leaf nodes for classification and prediction. ID3 algorithm splits the data into two parts. The splitting of data is done on the basis of information gain which in turn depends on entropy.
 In order to design a decision tree using ID3 algorithm, information gain and entropy of each column is calculated. This is done by functions infmation_gain and ent. 
 To make a decision tree using ID3 algorithm, one has to find the dominant column or attribute among all columns or attributes of the dataset. This dominant column or attribute now becomes root node for succesive tree. The dominant column is selected on the basis of information gain. The column having high information gain is selected as dominant column. After selecting the dominant column, it is removed from the dataset and a new dataset is created. Same procedure is implemented till we get leaf nodes only. The value of each root node generated is stored in the form of a key of a dictionary. 
@@ -7,6 +8,7 @@ In order to apply the decision tree over test data, classify_example function is
 
 
 Libraries used
+
 •	Numpy
 •	Matplotlib
 •	Sklearn (to shuffle the data for training)
@@ -15,6 +17,7 @@ Libraries used
 
 
 Functions used
+
 •	trin_tst_sp(splitData,test_size):
 This function splits the data into test and train data.
 	splitData = Dataset
@@ -66,6 +69,7 @@ This functions classifies a given test data as one of the class.
 
 
 How to use code
+
 The code is easy to apply to any data set. One only needs to change the path of the file or dataset on which the classification is to be done.
 The code is able to generate both training and test datasets by its own. One only has to provide either the number of datasets or the percentage of the dataset required in the test data.  
 There are two dictionaries which stores the label of the classes and the attributes. These dictionaries can be changed according to the dataset.
